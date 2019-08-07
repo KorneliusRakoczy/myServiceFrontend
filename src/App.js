@@ -2,6 +2,7 @@ import React from 'react';
 import './css/App.css';
 import ReactStoreIndicator from 'react-score-indicator'
 import AreaChart from './components/AreaChart';
+import CounterForm from './components/Counter';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           lineWidth={30}
           lineGap={7}
         />
+        <CounterForm/>
         <AreaChart/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
