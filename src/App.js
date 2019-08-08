@@ -1,18 +1,16 @@
-import React from 'react';
-import './css/App.css';
-import ReactStoreIndicator from 'react-score-indicator'
-import AreaChart from './components/AreaChart';
-import CounterForm from './components/Counter';
+import React from "react";
+import "./css/App.css";
+import ReactStoreIndicator from "react-score-indicator";
+import AreaChart from "./components/AreaChart";
+import CounterForm from "./components/Counter";
 
 function App() {
-
   let maxValue = 70;
   let score = 40;
 
   return (
     <div className="App">
       <header className="App-header">
-
         <ReactStoreIndicator
           value={score}
           maxValue={maxValue}
@@ -20,8 +18,8 @@ function App() {
           lineWidth={30}
           lineGap={7}
         />
-        <CounterForm/>
-        <AreaChart/>
+        <CounterForm />
+        <AreaChart />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
