@@ -11,3 +11,5 @@ export interface YearlyReport {
   Studies: number;
   Note: string;
 }
+
+export default YearlyReport;

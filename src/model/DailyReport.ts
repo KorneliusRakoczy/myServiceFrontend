@@ -9,3 +9,5 @@ export interface DailyReport {
   Studies: number;
   Note: string;
 }
+
+export default DailyReport;

@@ -3,11 +3,13 @@ import "./css/App.css";
 import ReactStoreIndicator from "react-score-indicator";
 import AreaChart from "./components/AreaChart";
 import CounterForm from "./components/Counter";
+import Report from './model/Report';
 
 function App() {
   let maxValue = 70;
   let score = 40;
-
+  let data : Report;
+  
   return (
     <div className="App">
       <header className="App-header">

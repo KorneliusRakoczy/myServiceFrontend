@@ -11,3 +11,5 @@ export interface MonthlyReport {
   Studies: number;
   Note: string;
 }
+
+export default MonthlyReport;
